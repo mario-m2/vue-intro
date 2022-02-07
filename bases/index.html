@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js Intro</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+    <div id="vue-container">
+        <h1>Hola Mundo</h1>
+        <p>Desde index.html</p>
+        <p> {{ quote  }}</p>
+        <p> {{ message }}</p>
+        <blockquote> - {{ author }}</blockquote>
+        <button v-on:click="changeQuote">Cambiar mensaje</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
